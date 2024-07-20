@@ -76,7 +76,7 @@ const Projects = () => {
               </div>
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">{project.title}</h2>
               <p className="text-white/60 capitalize">{project.description}</p>
-              <ul className="flex gap-4 ">
+              <ul className="flex gap-4 flex-wrap">
                 {project.stack.map((item, index) => (
                   <li key={index} className="capitalize text-accent text-xl">
                     {item.name}
@@ -127,7 +127,7 @@ const Projects = () => {
                   <Image 
                     src={project.image}
                     fill
-                    className="object-fit w-[580px] rounded-[30px]"
+                    className="object-fit xl:w-[580px] rounded-[30px]"
                     alt=""
                   />
                 </div>
