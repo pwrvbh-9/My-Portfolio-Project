@@ -121,7 +121,7 @@ const Projects = () => {
           onSlideChange={handleSlideChange}>
             {work.map((project, index) => (
               <SwiperSlide key={index} className="w-full">
-              <div className="h-[420px] relative group flex justify-center items-center bg-transparent rounded-[30px]">
+              <div className="h-[250px] xl:h-[420px] relative group flex justify-center items-center bg-transparent rounded-[30px]">
                 <div className="top-0 bottom-0 absolute w-full h-full z-10 rounded-[30px]">
                 <div className="relative w-full h-full">
                   <Image 
