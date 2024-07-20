@@ -20,7 +20,7 @@ const Homepage = () => {
             </p>
             {/* buttons social */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-            <a href="/assets/Vaibhav-resume.pdf" download={true}>
+            <a href="/assets/Resume-Vaibhav-Frontend.pdf" download={true}>
               <Button
               variant="outline"
               size="lg"
