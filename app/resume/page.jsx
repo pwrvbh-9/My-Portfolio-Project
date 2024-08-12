@@ -45,6 +45,11 @@ const experience = {
   description: "My name is Vaibhav Panwar and I have following experiences.",
   items: [
     {
+      company: "OrderEye",
+      position: "Frontend Developer Intern",
+      duration: "2024-Present"
+    },
+   {
       company: "Nexus Info",
       position: "Web Developer Intern",
       duration: "2023-2024"
